@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>c-136 project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="bg.jpg">
+        <center>
+        <h1 class="btn btn-warning heading">Ai Object Finder<p style="color: black;">the input name which you enter should match the name given in coco ssd model then only it will detcet</p></h1>
+        <br><br>
+        <p>object name :-</p>
+        <input id="object_name" >
+        <br><br>
+        <button class="btn btn-success"onclick="start()">start</button>
+        <br><br>
+        <button class="btn btn-warning"id="status"></button>
+        <button class="btn btn-danger"id="object"></button>
+        </center>
+        <div class="copy_right">Devoloped by KartikeyanRai</div>
+    </body>
+    <script src="main.js"></script>
+</html>
